@@ -31,11 +31,11 @@ export const Navbar = (): JSX.Element => {
                 {item.label}
               </a>
             ))}
-            <Button className="ml-4 bg-white text-black hover:bg-white/90 rounded-full px-6">
+            <a href="https://forms.gle/Fp9KShwmEdK8V5cR6" className="ml-4 bg-white text-black hover:bg-white/90 rounded-full px-6">
               <span className="[font-family:'Gellix-Medium',Helvetica] text-base">
                 Join Waitlist
               </span>
-            </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -92,11 +92,11 @@ export const Navbar = (): JSX.Element => {
                   {item.label}
                 </a>
               ))}
-              <Button className="w-full mt-4 bg-white text-black hover:bg-white/90 rounded-full">
+              <a href='https://forms.gle/Fp9KShwmEdK8V5cR6' className="w-full mt-4 bg-white text-black hover:bg-white/90 rounded-full">
                 <span className="[font-family:'Gellix-Medium',Helvetica] text-base">
                   Join Waitlist
                 </span>
-              </Button>
+              </a>
             </div>
           </div>
         )}

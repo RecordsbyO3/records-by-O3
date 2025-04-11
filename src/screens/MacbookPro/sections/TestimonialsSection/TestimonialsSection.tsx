@@ -30,11 +30,11 @@ export const TestimonialsSection = (): JSX.Element => {
 
           {/* CTA Buttons */}
           <div className="absolute bottom-8 left-0 right-0 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-5 px-4">
-            <button className="w-full md:w-auto px-[25px] py-5 bg-white text-black rounded-[50px] hover:bg-white/90">
+            <a href="https://forms.gle/Fp9KShwmEdK8V5cR6" className="w-full md:w-auto px-[25px] py-5 bg-white text-black rounded-[50px] hover:bg-white/90">
               <span className="[font-family:'Gellix-Medium',Helvetica] font-medium text-xl leading-5">
                 Join the waitlist
               </span>
-            </button>
+            </a>
 
             <button
               className="w-full md:w-auto px-[25px] py-5 text-white rounded-[50px] hover:bg-white/10 border border-white/20"
