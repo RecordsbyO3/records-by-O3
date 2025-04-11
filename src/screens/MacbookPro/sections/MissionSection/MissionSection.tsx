@@ -3,7 +3,7 @@ import { Badge } from "../../../../components/ui/badge";
 
 export const MissionSection = (): JSX.Element => {
   return (
-    <section className="flex flex-col w-full max-w-[848px] items-center gap-[30px] mx-auto py-16">
+    <section className="flex flex-col w-full max-w-[848px] items-center gap-[30px] mx-auto py-16" id="partner">
       <Badge className="flex items-center justify-center gap-2.5 p-2.5 rounded-[50px] [background:conic-gradient(from_180deg_at_56%_62%,rgba(140,179,255,1)_6%,rgba(42,109,239,1)_43%)]">
         <span className="[font-family:'Gellix-Medium',Helvetica] font-medium text-white text-sm text-center tracking-[0] leading-[14px] whitespace-nowrap">
           Why Parner with Us

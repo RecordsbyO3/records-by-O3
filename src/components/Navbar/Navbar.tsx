@@ -8,7 +8,7 @@ export const Navbar = (): JSX.Element => {
     { label: "Home", href: "#" },
     { label: "Features", href: "#features" },
     { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "Partner", href: "#partner" },
   ];
 
   return (

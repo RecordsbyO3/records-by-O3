@@ -1,1 +1,1 @@
-export { MacbookPro } from "./MacbookPro";
+export { MacbookPro } from "./Home";

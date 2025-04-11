@@ -3,7 +3,7 @@ import { Badge } from "../../../../components/ui/badge";
 
 export const CallToActionSection = (): JSX.Element => {
   return (
-    <section className="flex flex-col w-full max-w-[1044px] items-center gap-[30px] mx-auto py-16">
+    <section className="flex flex-col w-full max-w-[1044px] items-center gap-[30px] mx-auto py-16" id="about">
       <Badge className="rounded-[50px] px-2.5 py-2.5 [background:conic-gradient(from_180deg_at_56%_62%,rgba(140,179,255,1)_6%,rgba(42,109,239,1)_43%)] border-0">
         <span className="[font-family:'Gellix-Medium',Helvetica] font-medium text-white text-sm text-center tracking-[0] leading-[14px]">
           About Records by 03
